@@ -1,0 +1,50 @@
+AsyVar                  Asymptotic Variance and Confidence Interval
+                        Estimation of the ATE
+Blackwell               Blackwell Data for Covariate Balancing
+                        Propensity Score
+CBIV                    Covariate Balancing Propensity Score for
+                        Instrumental Variable Estimates (CBIV)
+CBMSM                   Covariate Balancing Propensity Score (CBPS) for
+                        Marginal Structural Models
+CBMSM.fit               CBMSM.fit
+CBPS                    Covariate Balancing Propensity Score (CBPS)
+                        Estimation
+CBPS.fit                CBPS.fit determines the proper routine (what
+                        kind of treatment) and calls the approporiate
+                        function.  It also pre- and post-processes the
+                        data
+LaLonde                 LaLonde Data for Covariate Balancing Propensity
+                        Score
+balance                 Optimal Covariate Balance
+balance.CBPS            Calculates the pre- and post-weighting
+                        difference in standardized means for covariate
+                        within each contrast
+balance.CBPSContinuous
+                        Calculates the pre- and post-weighting
+                        correlations between each covariate and the T
+balance.npCBPS          Calls the appropriate balance function based on
+                        the number of treatments
+hdCBPS                  hdCBPS high dimensional CBPS method to parses
+                        the formula object and passes the result to
+                        hdCBPS.fit, which calculates ATE using CBPS
+                        method in a high dimensional setting.
+npCBPS                  Non-Parametric Covariate Balancing Propensity
+                        Score (npCBPS) Estimation
+npCBPS.fit              npCBPS.fit
+plot.CBMSM              Plotting CBPS Estimation for Marginal
+                        Structural Models
+plot.CBPS               Plotting Covariate Balancing Propensity Score
+                        Estimation
+plot.CBPSContinuous     Plot the pre-and-post weighting correlations
+                        between X and T
+plot.npCBPS             Calls the appropriate plot function, based on
+                        the number of treatments
+print.CBPS              Print coefficients and model fit statistics
+summary.CBPS            Summarizing Covariate Balancing Propensity
+                        Score Estimation
+vcov.CBPS               Calculate Variance-Covariance Matrix for a
+                        Fitted CBPS Object
+vcov_outcome            Calculate Variance-Covariance Matrix for
+                        Outcome Model
+vcov_outcome.CBPSContinuous
+                        vcov_outcome
